@@ -101,9 +101,9 @@ Update the MySQL connection details if necessary.
 
 export const db = mysql.createConnection({
   host: "localhost",
-  user: "root",
-  password: "Saif-183897",
-  database: "blog"
+  user: "your_username",
+  password: "your_password",
+  database: "your_database_name"
 });
 Backend Routes and Endpoints (api/index.js):
 
